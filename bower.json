@@ -1,0 +1,12 @@
+{
+    "name": "Portal_de_Not_cias",
+    "version": "1.0.0",
+    "main": "path/to/main.css",
+    "ignore": [
+        ".jshintrc", "**/*.txt"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}
