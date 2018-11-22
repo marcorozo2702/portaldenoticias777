@@ -5,7 +5,7 @@
 
 #cabeca{
     width: auto;
-    height: 140px;
+    height: 80px;
     margin: 0 auto;
     background-color: #008AFF;
 }
@@ -24,6 +24,11 @@ h1{
     text-align: center;
     position: relative;
 }
-h1 p{
-    color: #5D5D5D;
+h1 p {
+    color: #636363;
+}
+.agora{
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 800;
 }
