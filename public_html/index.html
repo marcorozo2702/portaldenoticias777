@@ -16,122 +16,137 @@ Autor: Marco Antonio Rozo
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="row" id="cabeca">
-            <div class="col-md-5"></div>
-            <div class="col-md-7 mt-2">
-                <img src="public/image/LOGO.svg">
-            </div>
-        </div>
-
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-                <a class="navbar-brand" href="#"><font class="agora" color="#0029C6">Portal Agora</font></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarsExample09">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Início<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Eventos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Fale conosco</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Divulgue aqui</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Notícias</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown09">
-                                <a class="dropdown-item" href="#">Economia</a>
-                                <a class="dropdown-item" href="#">Educação</a>
-                                <a class="dropdown-item" href="#">Esportes</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-md-0">
-                        <input class="form-control" type="text" placeholder="Pesquisar" aria-label="Search">
+            <div class="row" id="cabeca">
+                <div class="col-md-3 mt-4 d-none d-sm-block">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
                     </form>
                 </div>
-            </nav>
-            <hr>
-                <h1><p>DESTAQUES</p></h1>
-                <div class="row">
-                    <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top img-fluid" src="public/image/noticia1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Titulo</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Leia mais</a>
-                        </div>
-                    </div>
-                    <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top img-fluid" src="public/image/noticia2.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Titulo</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Leia mais</a>
-                        </div>
-                    </div>
-                    <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top img-fluid" src="public/image/noticia3.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Titulo</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Leia mais</a>
-                        </div>
-                    </div>
-                    <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top img-fluid" src="public/image/noticia4.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Titulo</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Leia mais</a>
-                        </div>
-                    </div>
-
+                <div class="col-md-4 offset-md-2 mt-2">
+                    <img src="public/image/LOGO.svg">
                 </div>
-                <hr>
-                <div class="row">
-                    <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top img-fluid" src="public/image/noticia5.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Titulo</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Leia mais</a>
-                        </div>
-                    </div>
-                    <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top img-fluid" src="public/image/noticia6.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Titulo</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Leia mais</a>
-                        </div>
-                    </div>
-                    <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top img-fluid" src="public/image/noticia7.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Titulo</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Leia mais</a>
-                        </div>
-                    </div>
-                    <div class="card col-md-3" style="width: 18rem;">
-                        <img class="card-img-top img-fluid" src="public/image/noticia8.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Titulo</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Leia mais</a>
-                        </div>
-                    </div>
-
+                <div class="col-md-3 mt-4 d-none d-sm-block">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube"></i>
                 </div>
             </div>
+
+
+            <nav class="navbar-expand-lg navbar-light bg-light rounded mt-2">
+                <div class="row">
+                    <div class="col-md-5 offset-md-4">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample09">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Notícias</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdown09">
+                                        <a class="dropdown-item" href="#">Economia</a>
+                                        <a class="dropdown-item" href="#">Educação</a>
+                                        <a class="dropdown-item" href="#">Esportes</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#">Início<span class="sr-only">(current)</span></a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Fale conosco</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Divulgue aqui</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline d-sm-block d-md-none">
+                                <input class="form-control" type="text" placeholder="Pesquisar" aria-label="Search">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+
+
+
+            <hr>
+            <h1><p>DESTAQUES</p></h1>
+            <div class="row">
+                <div class="card col-md-3" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="public/image/noticia1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+                <div class="card col-md-3" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="public/image/noticia2.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+                <div class="card col-md-3" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="public/image/noticia3.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+                <div class="card col-md-3" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="public/image/noticia4.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div class="row">
+                <div class="card col-md-3" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="public/image/noticia5.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+                <div class="card col-md-3" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="public/image/noticia6.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+                <div class="card col-md-3" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="public/image/noticia7.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+                <div class="card col-md-3" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="public/image/noticia8.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
     </body>
 </html>
