@@ -55,16 +55,25 @@ h1 p {
         margin: 0 auto;
         background-color: #008AFF;
     }
-}
-@media screen and (max-width: 762px) {    /* Para mobile tela */
     .rodapeicone {
         margin-top: 10px;
         font-size: 30px;
         color: #CDCDCE;
+        text-align: center;
     }
-}
-@media screen and (max-width: 762px) {    /* Para mobile tela */
     .catmobile {
-        margin-left: 15px;
+        text-align: center;
     }
+    #rodape .logo-rodape{
+        text-align: center;
+    }
+    .logocabeca{
+    text-align: center;
+}
+.noticia{
+    padding-right: 25px !important;
+    padding-left: 25px!important;
+}
+.botao{
+    width: 100%;
 }
